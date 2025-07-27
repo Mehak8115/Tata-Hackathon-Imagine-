@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Hackathon</title>
+    <link rel="stylesheet" href="car.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">T</div>
+                <div class="logo-text">
+                    <span class="logo-accent">TATA</span> MOTORS
+                </div>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">Our Story</a>
+                        <a href="#" class="dropdown-item">Leadership</a>
+                        <a href="#" class="dropdown-item">Careers</a>
+                        <a href="#" class="dropdown-item">Awards</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#services" class="nav-link">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">Navigation Services</a>
+                        <a href="#" class="dropdown-item">Risk Assessment</a>
+                        <a href="#" class="dropdown-item">AI Assistant</a>
+                        <a href="#" class="dropdown-item">Doorstep Car Service</a>
+                        <a href="#" class="dropdown-item">Emergency Roadside Help</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#our_fleet" class="nav-link">Our Fleet</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">Passenger Cars</a>
+                        <a href="#" class="dropdown-item">Commercial Vehicles</a>
+                        <a href="#" class="dropdown-item">Electric Vehicles</a>
+                        <a href="#" class="dropdown-item">Luxury Cars</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact_wrapper" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="search-container" id="searchContainer">
+                <a href="#book-test-drive" class="cta-button">Book Test Drive</a>
+            </div>
+
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+        </div>
+    </nav>
+    <!-- home -->
+    <div id="home">
+     <div class="slider-wrapper">
+        <button class="nav-btn left" onclick="scrollSlides(-1)">❮</button>
+        <div class="slider-container" id="slider">
+            <section class="slide">
+                <video src="Assets/tata.mp4" autoplay muted loop playsinline></video>
+            </section>
+
+            <section class="slide">
+                <img src="Assets/home1.jpg" alt="New Forever Cars">
+            </section>
+
+            <section class="slide">
+                <video src="Assets/tatavi2.mp4" autoplay muted loop playsinline></video>
+            </section>
+
+            <section class="slide">
+                <img src="Assets/homeimg1.jpg" alt="Tata Safari Stealth Edition">
+            </section>
+        </div>
+     
+        <button class="nav-btn right" onclick="scrollSlides(1)">❯</button>
+     </div>
+
+    </div>
+
+
+    <!-- About -->
+    <div id="about">
+        <div class="about_bar">
+            <h2>ABOUT</h2>
+        </div>
+         <div class="au">
+            <img src="Assets/ab_img.png" alt="Car">
+
+            <div class="about-text">
+            <p>At Imagine, we’re passionate about everything on wheels. Our platform is dedicated to showcasing the latest car models, expert reviews, and helpful insights to guide enthusiasts and buyers alike</p>
+            <p>Whether you're exploring your first car or eyeing your next upgrade, we’re here to make your journey smooth, informed, and exciting.</p>
+
+            <button class="learn-more-btn">READ MORE</button>
+        </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- SERVCES -->
+  <section id="services">
+    <div class="ser">
+       <h2>SERVICES</h2>
+    </div>
+ 
+  <div class="service-grid">
+    <div class="service-box">
+      <i class="fas fa-map-marked-alt"></i>     
+       <h3>Navigation Services</h3>
+      <p>Provides optimal route suggestions with real-time traffic updates and GPS assistance.</p>
+      <button>Explore More</button>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-exclamation-triangle"></i>
+      <h3>Risk Assessment</h3>
+      <p>Analyzes driving patterns and predicts potential risks for improved vehicle safety.</p>
+      <button>Explore More</button>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-robot"></i>
+      <h3>AI Assistant</h3>
+      <p>Voice-enabled AI for seamless control, queries, and assistance while driving.</p>
+      <button>Explore More</button>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-tools"></i>
+      <h3>Doorstep Car Service</h3>
+      <p>Book a service and our technician will visit your home for oil change, minor fixes & more.</p>
+      <button>Explore More</button>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-car-crash"></i>
+      <h3>Emergency Roadside Help</h3>
+      <p>24x7 breakdown support for flat tires, dead batteries, towing, and more.</p>
+      <button>Explore More</button>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-lightbulb"></i>
+      <h3>Coming Soon</h3>
+      <p>Explore futuristic technologies integrated into our smart automotive ecosystem.</p>
+      <button>Explore More</button>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CARS -->
+  <div id="our_fleet">
+    
+  <div class="car-bar">
+    <h2>OUR FLEET</h2>
+    
+  </div>
+
+  <div class="car-carousel">
+    
+    <div class="car-slider" id="carSlider">
+      <div class="car-slide active">
+        <img src="Assets/c.png" alt="Curvv" />
+        <p class="car-btn">CURVV ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+        
+      </div>
+      <div class="car-slide">
+        <img src="Assets/n.png" alt="Nexon" />
+        <p>NEXON ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+        
+      </div>
+      <div class="car-slide">
+        <img src="Assets/s.png" alt="Safari" />
+        <p>SAFARI ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+        
+      </div>
+      
+      <div class="car-slide">
+        <img src="Assets/p.png" alt="Punch" />
+        <p>PUNCH ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+       
+      </div>
+      <div class="car-slide">
+        <img src="Assets/al.png" alt="Altroz" />
+        <p>ALTROZ ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+      </div>
+      <div class="car-slide">
+        <img src="Assets/tia.png" alt="Tiago" />
+        <p>TIAGO ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+
+      </div>
+      <div class="car-slide">
+        <img src="Assets/h1.png" alt="Harrier" />
+        <p>HARRIER ||  <button class="explore">Explore</button>  <button class="explore-t">Test Drive</button></p>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button onclick="prevSlide()">&#8592;</button>
+      <button onclick="nextSlide()">&#8594;</button>
+    </div>
+  </div>
+</div>
+
+     <!-- CONTACT -->
+   <section id="contact_wrapper" class="contact-section">
+        <div class="contact_header">
+            <h2 class="contact-title">Get In Touch</h2>
+        </div>
+        <div class="contact-para">
+            <p class="contact-subtitle">Choose your preferred way to connect with us</p>
+        </div>
+
+        <div class="contact-grid">
+            <a href="#" class="contact-item">
+                <div class="contact-circle">
+                    <span class="contact-icon">✉️</span>
+                </div>
+                <div class="contact-label">Email</div>
+                <div class="contact-info">Quick response</div>
+                <div class="contact-link">tatamotors@gmail.com</div>
+            </a>
+
+            <!-- tel:+1234567890 -->
+            <a href="" class="contact-item">
+                <div class="contact-circle">
+                    <span class="contact-icon">📞</span>
+                </div>
+                <div class="contact-label">Phone</div>
+                <div class="contact-info">Mon-Fri, 9AM-6PM</div>
+                <div class="contact-link">123456789</div>
+            </a>
+
+            <a href="#" class="contact-item" onclick="openChat(event)">
+                <div class="contact-circle">
+                    <span class="contact-icon">💬</span>
+                </div>
+                <div class="contact-label">Live Chat</div>
+                <div class="contact-info">Instant support</div>
+                <div class="contact-link">Start chat</div>
+            </a>
+
+            <a href="https://maps.google.com" class="contact-item" target="_blank">
+                <div class="contact-circle">
+                    <span class="contact-icon">📍</span>
+                </div>
+                <div class="contact-label">Visit Us</div>
+                <div class="contact-info">Come see us</div>
+                <div class="contact-link">Get directions</div>
+            </a>
+        </div>
+
+        <div class="form-section">
+            <div class="form-toggle" onclick="toggleForm()">
+                <div class="form-circle">
+                    <span class="form-icon">✍️</span>
+                </div>
+                <div class="form-title">Send a Message</div>
+                <div class="form-description">Quick contact form</div>
+            </div>
+
+            <div class="quick-form" id="quickForm">
+                <form onsubmit="submitForm(event)">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input form-textarea" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="social-section">
+            <h3 class="social-title">Follow Us</h3>
+            <div class="social-grid">
+                <a href="#" class="social-item">
+                    <div class="social-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="social-label">Twitter</div>
+                </a>
+
+                <a href="#" class="social-item">
+                    <div class="social-circle">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="social-label">LinkedIn</div>
+                </a>
+
+                <a href="#" class="social-item">
+                    <div class="social-circle">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="social-label">Instagram</div>
+                </a>
+
+                <a href="#" class="social-item">
+                    <div class="social-circle">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="social-label">GitHub</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p><i class="fa-regular fa-copyright"></i> Copyright Team Imagine</p>
+    </div>
+
+
+    <script src="car.js"></script>
+</body>
+</html>
